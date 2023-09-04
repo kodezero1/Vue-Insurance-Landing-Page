@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Noto Sans;
+  src: url("../fonts/NotoSans-Regular.ttf");
+}
+:root {
+  --success: #439687;
+  --success-80: hsl(169, 38%, 50%);
+  --dark: #475467;
+  --navy: #094063;
+  --navy-80: #101828;
+  --success-50: #1987544a;
+  --success-20: #19875405;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.container {
+  max-width: 1250px !important;
+}
+button,
+input {
+  box-shadow: none !important;
+  outline: none !important;
+  border: unset !important;
+}
+.btn {
+  padding: 0.5rem 1.8rem !important;
+}
+
+.btn-success,
+.bg-success {
+  background-color: var(--success) !important;
+}
+.bg-navy{
+  background-color: var(--navy-80);
+}
+.bg-success-20 {
+  background-color: var(--success-20);
+}
+.text-sucess {
+  color: var(--success) !important;
+}.text-sucess:hover{
+  color: var(--success-80) !important;
+}
+
+.text-dark {
+  color: var(--dark) !important;
+}
+.text-navy {
+  color: var(--navy);
+}
+.no-line {
+  text-decoration: none !important;
+}
+.list-item{
+  list-style-type: none;
+}
